@@ -67,8 +67,6 @@ def capture_and_send_frame(interval_seconds, output_folder, api_key):
             print("Failed to capture frame. Exiting...")
             break
         
-        cv2.imshow('Live Feed', frame)
-
         #final frame path
         image_path = f"{output_folder}/Frame_{frame_counter}.png"
 
