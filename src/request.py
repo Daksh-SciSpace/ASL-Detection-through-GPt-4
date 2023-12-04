@@ -95,5 +95,5 @@ def capture_and_send_frame(interval_seconds, output_folder, api_key):
 interval_seconds = 7  # frame capture time interval
 output_folder = "cap_frames"  # folder to save the frames
 
-api_key = "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"
+api_key = "API-KEY"
 capture_and_send_frame(interval_seconds, output_folder, api_key)
